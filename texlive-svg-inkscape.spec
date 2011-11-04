@@ -39,6 +39,7 @@ using Inkscape.
 %doc %{_texmfdistdir}/doc/latex/svg-inkscape/image.pdf
 %doc %{_texmfdistdir}/doc/latex/svg-inkscape/image.pdf_tex
 %doc %{_texmfdistdir}/doc/latex/svg-inkscape/image.svg
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -49,3 +50,5 @@ using Inkscape.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
