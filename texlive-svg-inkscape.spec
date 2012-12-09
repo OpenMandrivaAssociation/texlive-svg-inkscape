@@ -47,3 +47,17 @@ using Inkscape.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20100908-2
++ Revision: 756358
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20100908-1
++ Revision: 719616
+- texlive-svg-inkscape
+- texlive-svg-inkscape
+- texlive-svg-inkscape
+- texlive-svg-inkscape
+
