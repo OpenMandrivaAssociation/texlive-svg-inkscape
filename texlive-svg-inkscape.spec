@@ -1,12 +1,12 @@
-# revision 19788
+# revision 32199
 # category Package
 # catalog-ctan /info/svg-inkscape
-# catalog-date 2010-09-08 12:29:06 +0200
+# catalog-date 2013-11-21 13:05:24 +0100
 # catalog-license lppl1.3
 # catalog-version undef
 Name:		texlive-svg-inkscape
-Version:	20100908
-Release:	2
+Version:	20131121
+Release:	1
 Summary:	How to include an SVG image in LaTeX using Inkscape
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/svg-inkscape
@@ -18,7 +18,7 @@ BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 
 %description
-The document demonstrates the use of SVG imainges in LaTeX
+The document demonstrates the use of SVG images in LaTeX
 documents. Using the "PDF+LaTeX output" option of Inkscape, it
 is possible to include SVG in documents, in which LaTeX
 typesets the text. This results in uniform text style
@@ -47,17 +47,3 @@ using Inkscape.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20100908-2
-+ Revision: 756358
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20100908-1
-+ Revision: 719616
-- texlive-svg-inkscape
-- texlive-svg-inkscape
-- texlive-svg-inkscape
-- texlive-svg-inkscape
-
