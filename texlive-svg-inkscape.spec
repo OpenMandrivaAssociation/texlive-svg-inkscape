@@ -1,18 +1,12 @@
-# revision 32199
-# category Package
-# catalog-ctan /info/svg-inkscape
-# catalog-date 2013-11-21 13:05:24 +0100
-# catalog-license lppl1.3
-# catalog-version undef
 Name:		texlive-svg-inkscape
-Version:	20190228
+Version:	32199
 Release:	1
 Summary:	How to include an SVG image in LaTeX using Inkscape
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/svg-inkscape
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/svg-inkscape.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/svg-inkscape.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/svg-inkscape.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/svg-inkscape.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -40,7 +34,7 @@ using Inkscape.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
