@@ -1,6 +1,6 @@
 Name:		texlive-svg-inkscape
 Version:	32199
-Release:	1
+Release:	2
 Summary:	How to include an SVG image in LaTeX using Inkscape
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/svg-inkscape
