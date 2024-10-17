@@ -3,7 +3,7 @@ Version:	32199
 Release:	2
 Summary:	How to include an SVG image in LaTeX using Inkscape
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/svg-inkscape
+URL:		https://www.ctan.org/tex-archive/info/svg-inkscape
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/svg-inkscape.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/svg-inkscape.doc.r%{version}.tar.xz
